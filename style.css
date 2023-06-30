@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-image: url(background.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family : Verdana,Tahoma, sans-serif;
+}
+.navbar{
+    width:100%;
+    margin: auto;
+    padding: 0px 0;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+.logo {
+    /* float the logo to the left */
+    float: left;
+    /* set the size and margin of the logo */
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+  }
+.text {
+    /* float the text to the left */
+    float: left;
+    /* set the color, font-size, and vertical alignment of the text */
+    color: white;
+    font-size: 20px;
+    vertical-align: middle;
+  }
+.navbar ul li{
+   list-style: none;
+   display: inline-block;
+   margin: 0 20px;
+   align-items: center;
+   position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width:100%;
+}
+.imagehome{
+    width:100%;
+    margin: auto;
+    padding: 5px 0;
+    display: flex;
+    align-items: center; 
+}
+.visiontext{
+    display: flex;
+    color: blue;
+    font-style: normal;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.Vision{
+    color:black;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
